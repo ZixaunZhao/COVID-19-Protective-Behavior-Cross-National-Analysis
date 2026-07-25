@@ -84,68 +84,60 @@ After opening link 2, click on the folder named "Data" on the homepage, and then
 
 ### Dataset meaning
 
+- Imperial College London/YouGov COVID-19 Behaviour Tracker survey data.(Link 1)
+- Oxford COVID-19 Government Response Tracker policy data.(Link 2)
+
+The survey data provide individual-level behavioural, demographic, health, wellbeing, trust, and risk-perception variables. The OxCGRT H6 face-covering indicator is used to define sustained mask-mandate periods.
+
+
+
 
 ## Notebook workflow
 
 
-### 1. `01_Data Clean.ipynb.ipynb`
-
-Processes the raw Australian survey data and OxCGRT policy data. Main tasks include:
-
-- Loading `australia.csv` and `OxCGRT_AUS_latest.csv`.
-- Identifying state-specific sustained mask mandate start dates from the OxCGRT H6 face-covering indicator.
-- Counting missing values.
-- Cleaning invalid and missing responses.
-- Standardising dates, state identifiers, and survey variables.
-- Creating the preprocessed analytical dataset.
+### 1. `001 Uniform column format.ipynb`
 
 
-### 2. `02_Column Names update.ipynb`
-
-Renames variables into more readable labels for modelling, reporting, and interpretation.
 
 
-### 3. `03_split.ipynb`
-
-Builds four modelling datasets by combining two outcomes with two policy periods:
-
-- Before mandate - face mask wearing
-- After mandate - face mask wearing
-- Before mandate - protective behaviour
-- After mandate - protective behaviour
-
-Each task is split into 80% training data and 20% test data using stratification.
+### 2. `001_2 State mapping.ipynb`
 
 
-### 4. `04_Mode_Logistic Regression.ipynb`
-
-Fits logistic regression models for the four modelling tasks. Logistic regression is used as the baseline interpretable linear classifier.
-
-### 5. `05_Model_Classification Tree.ipynb`
-
-Fits classification tree models. Hyperparameters are selected using randomized search with stratified cross-validation.
-
-### 6. `06_Model_Random Forest.ipynb`
-
-Fits random forest models. Hyperparameters are selected using randomized search with stratified cross-validation.
-
-### 7. `07_Model_XGBoost.ipynb`
-
-Fits XGBoost models. Hyperparameters are selected using randomized search with stratified cross-validation, and feature importance values are extracted for interpretation.
-
-### 8. `ALL.ipynb`
-
-Runs the integrated modelling and result-generation workflow. This is the main notebook for reproducing the reported tables and figures.
 
 
-## Data sources
+### 3. `002 Data Clean.ipynb`
 
-The project combines:
 
-- Imperial College London/YouGov COVID-19 Behaviour Tracker survey data.
-- Oxford COVID-19 Government Response Tracker policy data.
 
-The survey data provide individual-level behavioural, demographic, health, wellbeing, trust, and risk-perception variables. The OxCGRT H6 face-covering indicator is used to define sustained mask-mandate periods.
+### 4. `003 Column Names update.ipynb`
+
+
+
+### 5. `004 Split.ipynb`
+
+
+
+### 6. `005 Random Forest (Model).ipynb`
+
+
+
+### 7. `006 XGBoost (Model).ipynb`
+
+
+
+### 8. `111 AUC.ipynb`
+
+
+
+### 9. `111 Dataset After Cleaning.ipynb`
+
+
+
+### 10. `111 Why Mandate Thousold = 2.5.ipynb`
+
+
+
+
 
 ## Modelling details
 
