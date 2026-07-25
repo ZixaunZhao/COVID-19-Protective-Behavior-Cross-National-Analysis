@@ -67,12 +67,20 @@ Project root/
 
 
 
-## Data sources
+## Dataset
 
-Firstly, all the initial data is already included in my GitHub repository.
+Firstly, all the initial data is already included in my GitHub repository (Data.zip), If you need the original source of the data, you can go to these two links respectively:
+
+Link 1: https://github.com/YouGov-Data/covid-19-tracker
+
+Link 2: https://github.com/OxCGRT/covid-policy-tracker
+
+
+- After opening link 1, click on the folder named "Data" on the homepage, and then find the following 7 data files: "australia.zip",  "brazil.csv", "canada.zip", "china.csv", "india.csv", "united-kingdom.zip", and "united-states.zip". Download these files and ensure they have the file structure required for this project. Some files may need to be unzipped.
 
 
 
+Dataset 2:
 
 
 
