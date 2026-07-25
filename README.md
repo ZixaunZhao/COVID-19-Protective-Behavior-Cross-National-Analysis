@@ -96,9 +96,9 @@ The survey data provide individual-level behavioural, demographic, health, wellb
 ## Code
 ### How to run the code ?
 
+1. Ensure the file structure is correct
 
-
-Run the notebooks:
+2. Run the notebook in sequences:
    - `001 Uniform column format.ipynb`
    - `001_2 State mapping.ipynb`
    - `002 Data Clean.ipynb`
@@ -109,6 +109,75 @@ Run the notebooks:
    - `111 AUC.ipynb`
    - `111 Dataset After Cleaning.ipynb`
    - `111 Why Mandate Thousold = 2.5.ipynb`
+
+
+### Repository structure(after code execution)
+
+
+```text
+Project root/
+|-- Data/
+|   |-- YouGov_Data/
+|   |   |-- australia.csv
+|   |   |-- brazil.csv
+|   |   |-- canada.csv
+|   |   |-- china.csv
+|   |   |-- india.csv
+|   |   |-- united-kingdom.csv
+|   |   `-- united-states.csv
+|   |   
+|   |-- codebook.xlsx
+|   |   
+|   `-- OxCGRT_Data/
+|       |-- OxCGRT_AUS_latest.csv
+|       |-- OxCGRT_BRA_latest LEGACY.csv
+|       |-- OxCGRT_CAN_latest.csv
+|       |-- OxCGRT_CHN_latest.csv
+|       |-- OxCGRT_GBR_latest.csv
+|       |-- OxCGRT_IND_latest.csv
+|       `-- OxCGRT_USA_latest.csv
+|
+|-- Cleaned Data/
+|   |-- Uniform column format/
+|   |   |-- YouGov_Australia.csv
+|   |   |-- OxCGRT_Australia.csv
+|   |   `-- corresponding YouGov and OxCGRT files for the other retained countries
+|   |-- 002 Data Clean/
+|   |   |-- cleaned_unencoded/
+|   |   |-- cleaned_encoded/
+|   |   `-- region_mandate_dates.csv
+|   |-- 003 Column Names update/
+|   |   |-- Columns update.csv
+|   |   `-- <Country> (readable).csv
+|   `-- 004 Split/
+|       |-- Australia/
+|       |-- Brazil/
+|       |-- Canada/
+|       |-- India/
+|       |-- United_Kingdom/
+|       `-- United_States/
+|
+|-- Result/
+|   |-- Random Forest/
+|   |   |-- random_forest_auc_results.csv
+|   |   |-- random_forest_feature_importance_all.csv
+|   |   `-- Figures/
+|   `-- XGBoost/
+|       |-- xgboost_auc_results.csv
+|       |-- xgboost_feature_importance_all.csv
+|       `-- Figures/
+|
+|-- 001 Uniform column format.ipynb
+|-- 001_2 State mapping.ipynb
+|-- 002 Data Clean.ipynb
+|-- 003 Column Names update.ipynb
+|-- 004 Split.ipynb
+|-- 005 Random Forest (Model).ipynb
+|-- 006 XGBoost (Model).ipynb
+|-- 111 Dataset After Cleaning.ipynb
+|-- 111 Why Mandate Thousold = 2.5.ipynb
+`-- 111 AUC.ipynb
+```
 
 
 
