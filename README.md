@@ -85,6 +85,7 @@ After opening link 2, click on the folder named "Data" on the homepage, and then
 ### Dataset meaning
 
 Imperial College London/YouGov COVID-19 Behaviour Tracker survey data(Link 1).
+
 Oxford COVID-19 Government Response Tracker policy data(Link 2).
 
 The survey data provide individual-level behavioural, demographic, health, wellbeing, trust, and risk-perception variables. The OxCGRT H6 face-covering indicator is used to define sustained mask-mandate periods.
