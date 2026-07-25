@@ -5,7 +5,7 @@ To investigate whether the factors influencing people’s mask-wearing and other
 
 # Statement
 
-This project builds on the methodological framework of Ryan et al. (2025). In particular, several parts of the data preprocessing, policy-period definition, outcome construction, and model-selection strategy follow their approach. 
+This project builds upon the methodological framework of Ryan et al. (2025). Several parts, including data preprocessing, policy period definition, outcome construction, and model selection strategies, reference and improve upon their methods.
 
 
 
