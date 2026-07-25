@@ -13,17 +13,15 @@ This project builds upon the methodological framework of Ryan et al. (2025). Sev
 
 This project compared whether the predictive factors influencing public compliance with mask mandates differed across countries and time periods before and after their implementation. The analysis results consisted of two binary variables:
 
-1. Face mask wearing compliance.
-2. Broader protective behaviour compliance.
+1. Face Mask Wearing.
+2. Overall Protective Behaviour.
 
-Four classification models are compared:
+2 classification models are compared:
 
-- Logistic regression
-- Classification tree
 - Random forest
 - XGBoost
 
-Model selection is based mainly on cross-validated ROC AUC, followed by held-out test evaluation.
+Model selection is based mainly on cross-validated ROC AUC.
 
 ## Repository structure
 
