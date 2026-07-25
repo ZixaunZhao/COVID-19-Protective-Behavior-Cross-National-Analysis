@@ -73,14 +73,12 @@ Firstly, all the initial data is already included in my GitHub repository (Data.
 
 Link 1: https://github.com/YouGov-Data/covid-19-tracker
 
-Link 2: https://github.com/OxCGRT/covid-policy-tracker
-
-
 After opening link 1, click on the folder named "Data" on the homepage, and then find the following 7 data files: `australia.zip`,  `brazil.csv`, `canada.zip`, `china.csv`, `india.csv`, `united-kingdom.zip`, and `united-states.zip`. Download these files and ensure they have the file structure required for this project. Some files may need to be unzipped.
 
 
+Link 2: https://github.com/OxCGRT/covid-policy-tracker
 
-Dataset 2:
+After opening link 2, click on the folder named "Data" on the homepage, and then find the following 7 data files: `OxCGRT_AUS_latest.csv`,  `OxCGRT_BRA_latest LEGACY.csv`, `OxCGRT_CAN_latest.csv`, `OxCGRT_CHN_latest.csv`, `OxCGRT_IND_latest.csv`, `OxCGRT_GBR_latest.csv`, and `OxCGRT_USA_latest.csv`. Download these files and ensure they have the file structure required for this project.
 
 
 
