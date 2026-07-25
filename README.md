@@ -2,9 +2,6 @@
 To investigate whether the factors influencing people’s mask-wearing and other protective behaviours changed before and after the implementation of mandatory mask-wearing orders; and to examine whether such changes are a phenomenon observed across countries
 
 
-# Covid Mask Compliance Analysis
-
-This repository contains a reproducible data preparation and modelling workflow for analysing predictors of COVID-19 protective behaviour compliance before and after sustained mask mandates. The current implementation uses Australia as the initial case study and is designed to support later cross-national extension.
 
 # Statement
 
