@@ -16,7 +16,7 @@ This project compared whether the predictive factors influencing public complian
 1. Face Mask Wearing.
 2. Overall Protective Behaviour.
 
-2 classification models are compared:
+Two classification models are compared:
 
 - Random forest
 - XGBoost
@@ -25,61 +25,59 @@ Model selection is based mainly on cross-validated ROC AUC.
 
 ## Repository structure
 
+
+
+
+
+
 ```text
-.
-├── Data/
-│   ├── australia.csv
-│   └── OxCGRT_AUS_latest.csv
-│   
-├── Code/
-│   ├── 01_Data Clean.ipynb
-│   ├── 02_Column Names update.ipynb
-│   ├── 03_split.ipynb
-│   ├── 04_Mode_Logistic Regression.ipynb
-│   ├── 05_Model_Classification Tree.ipynb
-│   ├── 06_Model_Random Forest.ipynb
-│   ├── 07_Model_XGBoost.ipynb
-│   └── ALL.ipynb
-│   
-├── Cleaned Data/
-│   ├── cleaned_data.csv
-│   ├── cleaned_data_preprocessing.csv
-│   ├── cleaned_data_preprocessing_renamed.csv
-│   ├── mandate_start_dates.csv
-│   ├── missing_value_counts.csv
-│   └── Splits/
-│       ├── X_train_before_mask.csv
-│       ├── X_test_before_mask.csv
-│       ├── y_train_before_mask.csv
-│       ├── y_test_before_mask.csv
-│       ├── X_train_after_mask.csv
-│       ├── X_test_after_mask.csv
-│       ├── y_train_after_mask.csv
-│       ├── y_test_after_mask.csv
-│       ├── X_train_before_protective.csv
-│       ├── X_test_before_protective.csv
-│       ├── y_train_before_protective.csv
-│       ├── y_test_before_protective.csv
-│       ├── X_train_after_protective.csv
-│       ├── X_test_after_protective.csv
-│       ├── y_train_after_protective.csv
-│       ├── y_test_after_protective.csv
-│       └── split_summary.csv
-└─── Result/
-    ├── table_cv_results.csv
-    ├── table_cv_results_full.csv
-    ├── table_test_results.csv
-    ├── selected_model_summary.csv
-    ├── auc_pivot.csv
-    ├── f1_pivot.csv
-    ├── roc_selected_models.png
-    ├── roc_all_models_comparison.png
-    ├── feature_importance_include_state.png
-    ├── feature_importance_no_state.png
-    ├── table_feature_importance_include_state.csv
-    └── table_feature_importance_no_state.csv
+Project root/
+|-- Data/
+|   |-- YouGov_Data/
+|   |   |-- australia.csv
+|   |   |-- brazil.csv
+|   |   |-- canada.csv
+|   |   |-- china.csv
+|   |   |-- india.csv
+|   |   |-- united-kingdom.csv
+|   |   `-- united-states.csv
+|   |   
+|   |-- codebook.xlsx
+|   |   
+|   `-- OxCGRT_Data/
+|       |-- OxCGRT_AUS_latest.csv
+|       |-- OxCGRT_BRA_latest LEGACY.csv
+|       |-- OxCGRT_CAN_latest.csv
+|       |-- OxCGRT_CHN_latest.csv
+|       |-- OxCGRT_GBR_latest.csv
+|       |-- OxCGRT_IND_latest.csv
+|       `-- OxCGRT_USA_latest.csv
+|
+|-- 001 Uniform column format.ipynb
+|-- 001_2 State mapping.ipynb
+|-- 002 Data Clean.ipynb
+|-- 003 Column Names update.ipynb
+|-- 004 Split.ipynb
+|-- 005 Random Forest (Model).ipynb
+|-- 006 XGBoost (Model).ipynb
+|-- 111 Dataset After Cleaning.ipynb
+|-- 111 Why Mandate Thousold = 2.5.ipynb
+`-- 111 AUC.ipynb
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Notebook workflow
 
