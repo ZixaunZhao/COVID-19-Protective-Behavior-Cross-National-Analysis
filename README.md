@@ -23,11 +23,9 @@ Two classification models are compared:
 
 Model selection is based mainly on cross-validated ROC AUC.
 
-## Repository structure
 
 
-
-
+## Repository structure (initial)
 
 
 ```text
@@ -69,9 +67,9 @@ Project root/
 
 
 
+## Data sources
 
-
-
+Firstly, all the initial data is already included in my GitHub repository.
 
 
 
