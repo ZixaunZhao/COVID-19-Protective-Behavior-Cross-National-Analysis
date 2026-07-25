@@ -93,48 +93,66 @@ The survey data provide individual-level behavioural, demographic, health, wellb
 
 
 
-## Notebook workflow
-
-
-### 1. `001 Uniform column format.ipynb` 
-
+## Code
+### How to run the code ?
 
 
 
-### 2. `001_2 State mapping.ipynb`
+Run the notebooks:
+   - `001 Uniform column format.ipynb`
+   - `001_2 State mapping.ipynb`
+   - `002 Data Clean.ipynb`
+   - `003 Column Names update.ipynb`
+   - `004 Split.ipynb`
+   - `005 Random Forest (Model).ipynb`
+   - `006 XGBoost (Model).ipynb`
+   - `111 AUC.ipynb`
+   - `111 Dataset After Cleaning.ipynb`
+   - `111 Why Mandate Thousold = 2.5.ipynb`
+
+
+
+### Code function
+
+#### 1. `001 Uniform column format.ipynb` 
 
 
 
 
-### 3. `002 Data Clean.ipynb`
+#### 2. `001_2 State mapping.ipynb`
 
 
 
-### 4. `003 Column Names update.ipynb`
+
+#### 3. `002 Data Clean.ipynb`
 
 
 
-### 5. `004 Split.ipynb`
+#### 4. `003 Column Names update.ipynb`
 
 
 
-### 6. `005 Random Forest (Model).ipynb`
+#### 5. `004 Split.ipynb`
 
 
 
-### 7. `006 XGBoost (Model).ipynb`
+#### 6. `005 Random Forest (Model).ipynb`
 
 
 
-### 8. `111 AUC.ipynb`
+#### 7. `006 XGBoost (Model).ipynb`
 
 
 
-### 9. `111 Dataset After Cleaning.ipynb`
+#### 8. `111 AUC.ipynb`
 
 
 
-### 10. `111 Why Mandate Thousold = 2.5.ipynb`
+#### 9. `111 Dataset After Cleaning.ipynb`
+
+
+
+#### 10. `111 Why Mandate Thousold = 2.5.ipynb`
 
 
 
@@ -146,22 +164,17 @@ The workflow uses four binary classification tasks:
 
 | Task name | Outcome | Policy period |
 |---|---|---|
-| `before_mask` | Face mask wearing | Before sustained mandate |
-| `after_mask` | Face mask wearing | After sustained mandate |
-| `before_protective` | Broader protective behaviour | Before sustained mandate |
-| `after_protective` | Broader protective behaviour | After sustained mandate |
+| `before_mask` | Face mask wearing | Before mandate date |
+| `after_mask` | Face mask wearing | After mandate date |
+| `before_protective` | Overall protective behaviour | Before mandate date |
+| `after_protective` | Overall protective behaviour | After mandate date |
 
 Class imbalance is handled using random oversampling on the training data only. The test data are not resampled.
 
 Evaluation metrics:
 
 - ROC AUC
-- Precision
-- Recall
-- Accuracy
-- F1 score
 
-ROC AUC is used as the primary model-selection metric.
 
 ## Reproducibility
 
@@ -180,33 +193,12 @@ The workflow uses:
 
 
 
-## Reproduce the analysis
 
-1. The raw files in the `Data/` folder:
-   - `australia.csv`
-   - `OxCGRT_AUS_latest.csv`
 
-2. Run the notebooks:
-   - `01_Data Clean.ipynb.ipynb`
-   - `02_Column Names update.ipynb`
-   - `03_split.ipynb`
-   - `ALL.ipynb`
 
-3. 4 models:
-   - `04_Mode_Logistic Regression.ipynb`
-   - `05_Model_Classification Tree.ipynb`
-   - `06_Model_Random Forest.ipynb`
-   - `07_Model_XGBoost.ipynb`
-
-4. Check the generated outputs in the `Result/` folder.
 
 ## Key findings
 
 
 - XGBoost gives the strongest cross-validated ROC AUC across the four modelling tasks.
-- Predictive performance is higher after sustained mask mandates than before mandates.
-- State indicators carry substantial predictive information, showing that regional policy timing and local public health context played an important role.
-- After excluding state indicators, the main predictors still changed before and after mandates.
-- For face mask wearing, the strongest non-state predictor was non-mask protective behaviour in both periods, but its importance decreased after mandates. Survey timing and willingness to self-isolate became more important after mandates.
-- For broader protective behaviour, the strongest non-state predictor shifted from physical contact count and perceived COVID severity before mandates to willingness to self-isolate after mandates.
-
+.....
