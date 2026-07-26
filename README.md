@@ -270,6 +270,3 @@ The workflow uses:
 
 These results describe predictive associations and should not be interpreted as causal effects of mask mandates.
 
-## Reference
-
-Ryan, M., Ye, J., Sexton, J., Hickson, R. I., & Brindal, E. (2025). Face mask mandates alter major determinants of adherence to protective health behaviours in Australia. *Royal Society Open Science, 12*(3), 241941. https://doi.org/10.1098/rsos.241941
