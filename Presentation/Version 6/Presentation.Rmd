@@ -1,0 +1,500 @@
+---
+title: 'Predictors of COVID-19 Protective Behavior Before and After Mask Mandates: A Cross-National Analysis'
+author: 'Zixuan Zhao A1948883'
+date: '2026-6-23'
+shorttitle: 'COVID-19 Presentation'
+output:
+  beamer_presentation:
+    theme: "Copenhagen"
+    colortheme: "rose"
+    slide_level: 1
+    keep_tex: false
+fontsize: 8pt
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{ragged2e}
+  - \usepackage{xcolor}
+  - \definecolor{myblue}{RGB}{28,68,145}
+  - \definecolor{lightblue}{RGB}{232,239,252}
+  - \definecolor{linklightblue}{RGB}{65,130,210}
+  - \hypersetup{colorlinks=true, urlcolor=myblue, linkcolor=myblue, citecolor=myblue}
+  - \newcommand{\darklink}[2]{\href{#1}{\textcolor{myblue}{#2}}}
+  - \newcommand{\lightlink}[2]{\href{#1}{\textcolor{linklightblue}{#2}}}
+  - \hypersetup{colorlinks=true, urlcolor=myblue, linkcolor=myblue, citecolor=myblue}
+  - \setbeamertemplate{navigation symbols}{}
+  - \setbeamercolor{title}{fg=white,bg=myblue}
+  - \setbeamercolor{subtitle}{fg=white,bg=myblue}
+  - \setbeamercolor{frametitle}{fg=white,bg=myblue}
+  - \setbeamercolor{section in head/foot}{fg=white,bg=myblue}
+  - \setbeamercolor{subsection in head/foot}{fg=white,bg=myblue}
+  - \setbeamerfont{frametitle}{series=\bfseries,size=\Large}
+  - \setbeamerfont{title}{series=\bfseries,size=\Large}
+  - \newcommand{\bluehead}[1]{\vspace{0.15cm}{\textcolor{myblue}{\large\textbf{#1}}}\par\vspace{0.15cm}}
+  - \newcommand{\smallbluehead}[1]{\vspace{0.1cm}{\textcolor{myblue}{\normalsize\textbf{#1}}}\par\vspace{0.1cm}}
+  - \AtBeginEnvironment{frame}{\justifying}
+  - \usepackage{tikz}
+  - \usetikzlibrary{tikzmark}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+
+
+
+
+
+
+
+
+
+# Background & Motivation
+
+\bluehead{1. Project background}
+
+- During \textbf{COVID-19}, protective behaviours such as \textbf{mask wearing}, social distancing, hand hygiene, and self-isolation were important for reducing transmission.
+
+\vspace{0.15cm}
+
+- Compliance was shaped not only by policy rules, but also by risk perception, trust, demographic characteristics, wellbeing, and broader social context.
+
+\vspace{0.15cm}
+
+- These predictors may operate \textbf{differently across countries} because policy environments, institutions, culture, and public expectations vary (Ryan et al., 2025).
+
+
+
+
+
+
+
+
+
+
+
+# Background & Motivation
+
+\bluehead{2. Research questions}
+
+
+- Within each country, do the key predictors of compliance with COVID-19 protective behaviours change before and after mask mandates?
+
+- Are these changes consistent across countries, or do they vary?
+
+- Is there a set of common cross-national predictors, alongside country-specific predictors?
+
+\begin{center}
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.8pt}
+\fbox{
+\includegraphics[width=0.9\textwidth]{1.png}}
+\end{center}
+
+
+
+
+
+
+
+
+# Data Sources
+
+\bluehead{1. Behaviour and policy datasets}
+
+\small
+\begin{itemize}
+\item \textbf{YouGov dataset:} repeated survey responses about people's COVID-19 behaviours, attitudes, and background characteristics (Imperial College London and YouGov, 2022).
+  \begin{itemize}
+  \item Behaviour: whether people wore masks, kept physical distance, washed hands...
+  \item Predictor: age group, gender, confidence in health services...
+  \end{itemize}
+
+\vspace{0.3cm}
+
+
+\item \textbf{OxCGRT dataset:} This dataset contains the strictness with which the government has enforced its mask-wearing policy (Oxford COVID-19 Government Response Tracker, 2023).
+\vspace{0.3cm}
+
+\item The two sources are linked by \textbf{country, region and survey date}.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+# Data Sources
+
+\bluehead{2. Policy timing figure}
+
+\begin{center}
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.8pt}
+\fbox{
+\includegraphics[width=1\textwidth]{2.png}}
+\end{center}
+
+\vspace{0.1cm}
+
+This figure show how mask policy intensity changed over time, and how the mandate threshold was used to define the before and after mandate periods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Data Sources
+
+\bluehead{3. Country coverage}
+
+The current cleaned cross-national sample includes six countries:
+
+\vspace{0.25cm}
+
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+Country code & Country name \\
+\midrule
+AUS & Australia \\
+BRA & Brazil \\
+CAN & Canada \\
+
+\tikzmarknode[inner sep=0pt]{chnleft}{CHN} &
+\tikzmarknode[inner sep=0pt]{chnright}{China}
+\tikz[remember picture,overlay]{
+  \draw[
+    red,
+    line width=0.8pt,
+    dash pattern=on 3pt off 2pt
+  ]
+  ([xshift=-2pt]chnleft.west) --
+  ([xshift=2pt]chnright.east);
+} \\
+
+GBR & United Kingdom \\
+IND & India \\
+USA & United States \\
+\bottomrule 
+\end{tabular}
+\end{center}
+
+
+\vspace{0.25cm}
+
+China was excluded from the current analysis because several key variables needed for the harmonised workflow were not available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# What Have I Done So Far?
+
+\bluehead{1. Data pre-processing}
+
+\vspace{0.25cm}
+
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.58\textwidth}
+
+\begin{itemize}
+\setlength{\itemsep}{0.35cm}
+\item For the YouGov and OxCGRT files, various formatting issues have been resolved.
+\item \textbf{ Mapped survey regions to policy regions}: Convert all place names in both datasets to lower-case English letters, then match them one-to-one.
+\item \textbf{ Defined before/after mandate periods}.
+\item \textbf{ Defined two outcomes}: Face-mask-wearing and Overall-protective-behaviour.
+\item \textbf{ Cleaned the data}:  Removing columns and samples with too many missing values, encoding the data, making column names more readable, and splits.
+\end{itemize}
+
+\end{column}
+
+\begin{column}{0.38\textwidth}
+\centering
+\includegraphics[width=\linewidth,height=0.68\textheight,keepaspectratio]{3.png}
+\end{column}
+\end{columns}
+
+
+
+
+
+
+# What Have I Done So Far?
+
+\bluehead{2. About Model}
+\vspace{0.25cm}
+
+\setlength{\fboxsep}{7pt}
+\setlength{\fboxrule}{0.6pt}
+
+\fbox{
+\begin{minipage}{0.92\textwidth}
+\textbf{\textcolor{myblue}{Model 1: Random Forest}} \\
+This model builds many decision trees and lets them vote for the final prediction. Capable of handling non-linearity.
+
+\vspace{0.18cm}
+
+\textbf{\textcolor{myblue}{Model 2: XGBoost}} \\
+This model also uses decision trees, but it builds them step by step. Each new tree tries to correct the mistakes made by the previous trees. Capable of handling non-linearity.
+\end{minipage}}
+
+\vspace{0.28cm}
+
+\fbox{
+\begin{minipage}{0.92\textwidth}
+\textbf{\textcolor{myblue}{Metric: AUC}} \\
+AUC means Area Under the ROC Curve; selected because it can measure model separation across all classification thresholds. AUC ranges from 0 to 1. A higher AUC indicates better separation between compliant and non-compliant respondents.
+\end{minipage}}
+
+
+
+
+
+
+
+
+
+
+
+
+# Results
+
+\bluehead{1. Cleaned sample size}
+
+The preprocessing pipeline produced cleaned before- and after-mandate datasets for all six countries.
+
+\vspace{0.2cm}
+
+\begin{center}
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.8pt}
+\fbox{
+\includegraphics[width=1\textwidth]{3a.png}}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+# Results
+
+\bluehead{2. Train-test split}
+
+The next step was to prepare data for modelling.
+
+- I split the data separately for each country, policy period, and outcome.
+
+- I used an 80/20 train-test split.
+
+- Stratification (based on the outcome class, maintain a similar proportion of categories  in the train and test sets) was used where possible to preserve the class balance of the outcome.
+
+
+\vspace{0.25cm}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Dimension & Values & Number \\
+\midrule
+Countries & AUS, BRA, CAN, GBR, IND, USA & 6 \\
+Policy periods & Before mandate, after mandate & 2 \\
+Outcomes & Face mask, overall protective behaviour & 2 \\
+\midrule
+Total modelling tasks & $6 \times 2 \times 2$ & 24 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+
+
+# Results
+
+\bluehead{3. Model Performance (AUC)}
+
+\vspace{-0.12cm}
+
+\begin{center}
+{\tiny
+\setlength{\tabcolsep}{2.3pt}
+\renewcommand{\arraystretch}{1.02}
+
+\begin{columns}[T,onlytextwidth]
+
+\begin{column}{0.49\textwidth}
+\begin{tabular}{p{1.05cm}p{2.55cm}cc}
+\toprule
+Country & Outcome & RF & XGboost \\
+\midrule
+Australia & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & 0.844 & \textbf{0.854} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & 0.909 & \textbf{0.912} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & 0.767 & \textbf{0.772} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & 0.826 & \textbf{0.831} \\
+\addlinespace[0.20cm]
+Brazil & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & 0.783 & \textbf{0.785} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & 0.652 & \textbf{0.653} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & \textbf{0.713} & 0.705 \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & \textbf{0.829} & 0.827 \\
+\addlinespace[0.20cm]
+Canada & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & \textbf{0.854} & \textbf{0.854} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & 0.813 & \textbf{0.816} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & 0.836 & \textbf{0.840} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & 0.833 & \textbf{0.834} \\
+\bottomrule
+\end{tabular}
+\end{column}
+
+\begin{column}{0.49\textwidth}
+\begin{tabular}{p{0.85cm}p{2.55cm}cc}
+\toprule
+Country & Outcome & RF & XGboost \\
+\midrule
+UK & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & 0.755 & \textbf{0.760} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & 0.695 & \textbf{0.705} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & 0.796 & \textbf{0.797} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & 0.846 & \textbf{0.857} \\
+\addlinespace[0.20cm]
+India & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & 0.757 & \textbf{0.764} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & \textbf{0.856} & 0.851 \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & \textbf{0.823} & 0.801 \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & 0.827 & \textbf{0.831} \\
+\addlinespace[0.20cm]
+US & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]Before mandate\end{tabular} & 0.846 & \textbf{0.853} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Face mask wearing\\[0.10em]After mandate\end{tabular} & 0.855 & \textbf{0.862} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]Before mandate\end{tabular} & 0.797 & \textbf{0.802} \\
+\addlinespace[0.07cm]
+ & \begin{tabular}[t]{@{}l@{}}Protective behaviour\\[0.10em]After mandate\end{tabular} & 0.857 & \textbf{0.862} \\
+\bottomrule
+\end{tabular}
+\end{column}
+
+\end{columns}
+}
+\end{center}
+
+
+
+
+
+
+
+# Results
+
+\bluehead{4. Feature importance}
+
+\vspace{0.05cm}
+
+\small
+Feature importance indicates how much each predictor contributes to the model’s prediction. 
+A higher importance score means that the factor plays a stronger role (Calculated after model training based on the contribution of each variable to the predicted results).
+
+
+\vspace{-0.35cm}
+\begin{center}
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.8pt}
+\fbox{
+\includegraphics[width=1\textwidth]{4.png}}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Summary
+
+\bluehead{Summary of main findings}
+
+
+- \textbf{XGBoost }achieved the \textbf{best} or joint-best AUC in most modelling tasks, while Random Forest provided a useful comparison model with similar performance in some cases.
+
+- The before/after comparison suggests that \textbf{ the predictors of compliance are not fixed}. Their importance changes after mask mandates, and the direction of change differs across countries.
+
+- \textbf{Some predictors appear repeatedly across countries}, such as non-mask protective behaviour, willingness to self-isolate, survey timing, and confidence-related variables. Other predictors are more country-specific.
+
+
+\vspace{0.25cm}
+
+\bluehead{All data and code}
+
+All code can be found in my GitHub: 
+\darklink{https://github.com/ZixaunZhao/COVID-19-Protective-Behavior-Cross-National-Analysis.git}{https://github.com/ZixaunZhao/COVID-19-Protective-Behavior-Cross-National-Analysis.git}
+
+
+
+
+# References
+
+[1] Imperial College London and YouGov. COVID-19 behaviour tracker data hub, 2022. URL: https://github.com/YouGov-Data/covid-19-tracker/tree/master/data. Accessed 2026.
+\vspace{0.2cm}
+
+
+[2] Oxford COVID-19 Government Response Tracker. COVID-19 policy tracker data, 2023. URL: https://github.com/OxCGRT/covid-policy-tracker/tree/master/data. Accessed 2026.
+\vspace{0.2cm}
+
+
+[3] Ryan, M., Ye, J., Sexton, J., Hickson, R. I., and Brindal, E. Face mask mandates alter major determinants of adherence to protective health behaviours in Australia. Royal Society Open Science, 12:241941, 2025. DOI: 10.1098/rsos.241941.
+\vspace{0.2cm}
+
+
