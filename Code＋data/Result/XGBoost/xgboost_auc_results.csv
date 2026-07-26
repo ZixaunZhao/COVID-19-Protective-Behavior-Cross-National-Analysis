@@ -1,0 +1,25 @@
+﻿model,country,mandate_period,mandate_period_label,task_type,outcome,task_name,task_label,cv_roc_auc,test_roc_auc
+XGBoost,Australia,before_mandate,Before mandate,mask,Face mask wearing,Australia_before_mandate_mask,Australia - Before mandate - Face mask wearing,0.8513319187241024,0.8540589618875811
+XGBoost,Australia,before_mandate,Before mandate,protective,Protective behaviour,Australia_before_mandate_protective,Australia - Before mandate - Protective behaviour,0.7772684845293318,0.7719616592204195
+XGBoost,Australia,after_mandate,After mandate,mask,Face mask wearing,Australia_after_mandate_mask,Australia - After mandate - Face mask wearing,0.9057164835957788,0.9121159238155083
+XGBoost,Australia,after_mandate,After mandate,protective,Protective behaviour,Australia_after_mandate_protective,Australia - After mandate - Protective behaviour,0.8275341510982503,0.8311659086602237
+XGBoost,Brazil,before_mandate,Before mandate,mask,Face mask wearing,Brazil_before_mandate_mask,Brazil - Before mandate - Face mask wearing,0.7868888847981689,0.7852564102564104
+XGBoost,Brazil,before_mandate,Before mandate,protective,Protective behaviour,Brazil_before_mandate_protective,Brazil - Before mandate - Protective behaviour,0.7574080347903218,0.7049107142857143
+XGBoost,Brazil,after_mandate,After mandate,mask,Face mask wearing,Brazil_after_mandate_mask,Brazil - After mandate - Face mask wearing,0.7907609569756241,0.6531544300607893
+XGBoost,Brazil,after_mandate,After mandate,protective,Protective behaviour,Brazil_after_mandate_protective,Brazil - After mandate - Protective behaviour,0.8117227639971955,0.8267228267228266
+XGBoost,Canada,before_mandate,Before mandate,mask,Face mask wearing,Canada_before_mandate_mask,Canada - Before mandate - Face mask wearing,0.8361932175001311,0.8395309770567191
+XGBoost,Canada,before_mandate,Before mandate,protective,Protective behaviour,Canada_before_mandate_protective,Canada - Before mandate - Protective behaviour,0.8267517605751504,0.8507803345369036
+XGBoost,Canada,after_mandate,After mandate,mask,Face mask wearing,Canada_after_mandate_mask,Canada - After mandate - Face mask wearing,0.8274499359931428,0.8448659487968355
+XGBoost,Canada,after_mandate,After mandate,protective,Protective behaviour,Canada_after_mandate_protective,Canada - After mandate - Protective behaviour,0.8358433501231655,0.8372886843505006
+XGBoost,United Kingdom,before_mandate,Before mandate,mask,Face mask wearing,United_Kingdom_before_mandate_mask,United Kingdom - Before mandate - Face mask wearing,0.666122945311387,0.6947731383780524
+XGBoost,United Kingdom,before_mandate,Before mandate,protective,Protective behaviour,United_Kingdom_before_mandate_protective,United Kingdom - Before mandate - Protective behaviour,0.8026484222065617,0.7989871235386025
+XGBoost,United Kingdom,after_mandate,After mandate,mask,Face mask wearing,United_Kingdom_after_mandate_mask,United Kingdom - After mandate - Face mask wearing,0.7394687028537876,0.7243188249061635
+XGBoost,United Kingdom,after_mandate,After mandate,protective,Protective behaviour,United_Kingdom_after_mandate_protective,United Kingdom - After mandate - Protective behaviour,0.8394704534265539,0.8379874207066793
+XGBoost,India,before_mandate,Before mandate,mask,Face mask wearing,India_before_mandate_mask,India - Before mandate - Face mask wearing,0.7332893387943893,0.7642045454545455
+XGBoost,India,before_mandate,Before mandate,protective,Protective behaviour,India_before_mandate_protective,India - Before mandate - Protective behaviour,0.8242441152597403,0.800969193492558
+XGBoost,India,after_mandate,After mandate,mask,Face mask wearing,India_after_mandate_mask,India - After mandate - Face mask wearing,0.844088002630385,0.8514993962372757
+XGBoost,India,after_mandate,After mandate,protective,Protective behaviour,India_after_mandate_protective,India - After mandate - Protective behaviour,0.8429100850286781,0.8305480072463768
+XGBoost,United States,before_mandate,Before mandate,mask,Face mask wearing,United_States_before_mandate_mask,United States - Before mandate - Face mask wearing,0.8352551311726026,0.8452812284334024
+XGBoost,United States,before_mandate,Before mandate,protective,Protective behaviour,United_States_before_mandate_protective,United States - Before mandate - Protective behaviour,0.8344607570058857,0.8465687865022712
+XGBoost,United States,after_mandate,After mandate,mask,Face mask wearing,United_States_after_mandate_mask,United States - After mandate - Face mask wearing,0.8717155700828707,0.8604591579123522
+XGBoost,United States,after_mandate,After mandate,protective,Protective behaviour,United_States_after_mandate_protective,United States - After mandate - Protective behaviour,0.8522154271994216,0.8577097818424446

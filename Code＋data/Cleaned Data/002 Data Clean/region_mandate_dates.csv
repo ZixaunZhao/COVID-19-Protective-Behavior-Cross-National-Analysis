@@ -1,0 +1,139 @@
+﻿country_code,country,state,mandate_start_date,mandate_rule
+AUS,Australia,Australian Capital Territory,2021-07-04,threshold
+AUS,Australia,New South Wales,2021-07-06,threshold
+AUS,Australia,Northern Territory,2021-06-30,threshold
+AUS,Australia,Queensland,2021-01-14,threshold
+AUS,Australia,South Australia,2021-07-23,threshold
+AUS,Australia,Tasmania,2021-07-22,threshold
+AUS,Australia,Victoria,2020-07-19,threshold
+AUS,Australia,Western Australia,2021-02-03,threshold
+BRA,Brazil,Acre,2020-04-25,threshold
+BRA,Brazil,Alagoas,2020-05-07,threshold
+BRA,Brazil,Amapa,2020-05-22,threshold
+BRA,Brazil,Amazonas,2020-05-19,threshold
+BRA,Brazil,Bahia,2020-04-26,threshold
+BRA,Brazil,Ceara,2020-05-09,threshold
+BRA,Brazil,Distrito Federal,2020-05-08,threshold
+BRA,Brazil,Espirito Santo,2020-05-11,threshold
+BRA,Brazil,Goias,2020-04-28,threshold
+BRA,Brazil,Maranhao,2020-04-14,threshold
+BRA,Brazil,Mato Grosso,2020-04-21,threshold
+BRA,Brazil,Mato Grosso do Sul,2020-06-21,threshold
+BRA,Brazil,Minas Gerais,2020-04-29,threshold
+BRA,Brazil,Para,2020-04-30,threshold
+BRA,Brazil,Paraiba,2020-05-12,threshold
+BRA,Brazil,Parana,2020-04-14,threshold
+BRA,Brazil,Pernambuco,2020-05-19,threshold
+BRA,Brazil,Piaui,2020-04-30,threshold
+BRA,Brazil,Rio Grande do Norte,2020-04-27,threshold
+BRA,Brazil,Rio Grande do Sul,2020-05-07,threshold
+BRA,Brazil,Rio de Janeiro,2020-04-30,threshold
+BRA,Brazil,Rondonia,2020-05-17,threshold
+BRA,Brazil,Roraima,2020-05-08,threshold
+BRA,Brazil,Santa Catarina,2020-04-27,threshold
+BRA,Brazil,Sao Paulo,2020-05-08,threshold
+BRA,Brazil,Sergipe,2020-05-05,threshold
+BRA,Brazil,Tocantins,2020-04-20,threshold
+CAN,Canada,Alberta,2020-08-07,threshold
+CAN,Canada,British Columbia,2021-08-19,threshold
+CAN,Canada,Manitoba,2020-08-30,threshold
+CAN,Canada,New Brunswick,2020-11-26,threshold
+CAN,Canada,Newfoundland and Labrador,2020-08-30,threshold
+CAN,Canada,Northwest Territories,2021-05-09,threshold
+CAN,Canada,Nova Scotia,2020-05-03,max_rolling
+CAN,Canada,Nunavut,2020-12-08,threshold
+CAN,Canada,Ontario,2021-10-01,threshold
+CAN,Canada,Prince Edward Island,2020-11-26,threshold
+CAN,Canada,Quebec,2020-07-24,threshold
+CAN,Canada,Saskatchewan,2020-11-12,threshold
+CAN,Canada,Yukon,2020-12-07,threshold
+GBR,United Kingdom,England,2020-06-28,max_rolling
+GBR,United Kingdom,Northern Ireland,2020-07-23,max_rolling
+GBR,United Kingdom,Scotland,2020-07-05,max_rolling
+GBR,United Kingdom,Wales,2020-09-27,max_rolling
+IND,India,Andaman and Nicobar Islands,2020-04-01,threshold
+IND,India,Andhra Pradesh,2020-03-26,threshold
+IND,India,Arunachal Pradesh,2020-03-29,threshold
+IND,India,Assam,2020-04-21,threshold
+IND,India,Bihar,2020-04-21,threshold
+IND,India,Chandigarh,2020-03-25,threshold
+IND,India,Chhattisgarh,2020-03-31,threshold
+IND,India,Dadra and Nagar Haveli and Daman and Diu,2020-03-31,threshold
+IND,India,Delhi,2020-04-13,threshold
+IND,India,Goa,2020-04-18,threshold
+IND,India,Gujarat,2020-04-21,threshold
+IND,India,Haryana,2020-04-15,threshold
+IND,India,Himachal Pradesh,2020-04-21,threshold
+IND,India,Jammu and Kashmir,2020-04-21,threshold
+IND,India,Jharkhand,2020-04-21,threshold
+IND,India,Karnataka,2020-04-20,threshold
+IND,India,Kerala,2020-04-17,threshold
+IND,India,Lakshadweep,2020-04-01,threshold
+IND,India,Madhya Pradesh,2020-03-29,threshold
+IND,India,Maharashtra,2020-03-31,threshold
+IND,India,Manipur,2020-04-15,threshold
+IND,India,Meghalaya,2020-03-26,threshold
+IND,India,Mizoram,2020-04-07,threshold
+IND,India,Nagaland,2020-03-23,threshold
+IND,India,Odisha,2020-03-21,threshold
+IND,India,Puducherry,2020-03-25,threshold
+IND,India,Punjab,2020-04-21,threshold
+IND,India,Rajasthan,2020-04-21,threshold
+IND,India,Sikkim,2020-04-18,threshold
+IND,India,Tamil Nadu,2020-04-19,threshold
+IND,India,Telangana,2020-03-20,threshold
+IND,India,Tripura,2020-04-18,threshold
+IND,India,Uttar Pradesh,2020-04-16,threshold
+IND,India,Uttarakhand,2020-04-21,threshold
+IND,India,West Bengal,2020-04-16,threshold
+USA,United States,Alabama,2020-05-11,threshold
+USA,United States,Alaska,2020-07-09,threshold
+USA,United States,Arizona,2020-06-29,threshold
+USA,United States,Arkansas,2020-06-26,threshold
+USA,United States,California,2020-04-15,threshold
+USA,United States,Colorado,2020-07-22,threshold
+USA,United States,Connecticut,2020-04-30,threshold
+USA,United States,Delaware,2020-05-08,threshold
+USA,United States,Florida,2020-04-21,threshold
+USA,United States,Georgia,2021-09-06,threshold
+USA,United States,Hawaii,2020-07-08,threshold
+USA,United States,Idaho,2020-07-24,threshold
+USA,United States,Illinois,2020-10-04,threshold
+USA,United States,Indiana,2020-08-06,threshold
+USA,United States,Iowa,2020-07-27,threshold
+USA,United States,Kansas,2020-07-13,threshold
+USA,United States,Kentucky,2020-07-20,threshold
+USA,United States,Louisiana,2020-05-22,threshold
+USA,United States,Maine,2020-11-10,threshold
+USA,United States,Maryland,2020-08-06,threshold
+USA,United States,Massachusetts,2020-04-24,threshold
+USA,United States,Michigan,2020-07-23,threshold
+USA,United States,Minnesota,2020-06-08,max_rolling
+USA,United States,Mississippi,2020-06-14,threshold
+USA,United States,Missouri,2020-07-11,threshold
+USA,United States,Montana,2020-07-06,threshold
+USA,United States,Nebraska,2020-07-02,max_rolling
+USA,United States,Nevada,2020-06-30,threshold
+USA,United States,New Hampshire,2020-11-26,threshold
+USA,United States,New Jersey,2020-07-14,threshold
+USA,United States,New Mexico,2020-05-21,threshold
+USA,United States,New York,2020-04-27,threshold
+USA,United States,North Carolina,2020-04-30,threshold
+USA,United States,North Dakota,2020-10-29,threshold
+USA,United States,Ohio,2020-07-14,threshold
+USA,United States,Oklahoma,2020-07-15,threshold
+USA,United States,Oregon,2020-06-30,threshold
+USA,United States,Pennsylvania,2020-07-04,threshold
+USA,United States,Rhode Island,2020-05-14,threshold
+USA,United States,South Carolina,2020-07-04,threshold
+USA,United States,South Dakota,2020-04-20,max_rolling
+USA,United States,Tennessee,2020-07-13,threshold
+USA,United States,Texas,2020-04-23,threshold
+USA,United States,Utah,2020-07-05,threshold
+USA,United States,Vermont,2020-08-07,threshold
+USA,United States,Virginia,2020-11-22,threshold
+USA,United States,Washington,2020-07-06,threshold
+USA,United States,Washington DC,2020-05-23,threshold
+USA,United States,West Virginia,2020-11-19,threshold
+USA,United States,Wisconsin,2020-07-22,threshold
+USA,United States,Wyoming,2020-05-14,max_rolling

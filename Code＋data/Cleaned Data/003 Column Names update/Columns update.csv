@@ -1,0 +1,241 @@
+﻿old_column_name,new_column_name
+CORE_B2_4_Don't know,Happiness Change: Unknown
+CORE_B2_4_Much less happy now,Happiness Change: Much Less
+CORE_B2_4_Much more happy now,Happiness Change: Much More
+CORE_B2_4_N/A,Happiness Change: N/A
+CORE_B2_4_Somewhat less happy now,Happiness Change: Somewhat Less
+CORE_B2_4_Somewhat more happy now,Happiness Change: Somewhat More
+PHQ4_1_N/A,PHQ Low Interest: N/A
+PHQ4_1_Nearly every day,PHQ Low Interest: Daily
+PHQ4_1_Not at all,PHQ Low Interest: Not At All
+PHQ4_1_Prefer not to say,PHQ Low Interest: Prefer Not Say
+PHQ4_1_Several days,PHQ Low Interest: Several Days
+PHQ4_2_N/A,PHQ Depressed: N/A
+PHQ4_2_Nearly every day,PHQ Depressed: Daily
+PHQ4_2_Not at all,PHQ Depressed: Not At All
+PHQ4_2_Prefer not to say,PHQ Depressed: Prefer Not Say
+PHQ4_2_Several days,PHQ Depressed: Several Days
+PHQ4_3_N/A,PHQ Anxiety: N/A
+PHQ4_3_Nearly every day,PHQ Anxiety: Daily
+PHQ4_3_Not at all,PHQ Anxiety: Not At All
+PHQ4_3_Prefer not to say,PHQ Anxiety: Prefer Not Say
+PHQ4_3_Several days,PHQ Anxiety: Several Days
+PHQ4_4_N/A,PHQ Worry: N/A
+PHQ4_4_Nearly every day,PHQ Worry: Daily
+PHQ4_4_Not at all,PHQ Worry: Not At All
+PHQ4_4_Prefer not to say,PHQ Worry: Prefer Not Say
+PHQ4_4_Several days,PHQ Worry: Several Days
+RecordNo,Record ID
+WCRV_4_I am fairly scared that I will contract the Coronavirus (COVID-19),COVID Fear: Fairly Scared
+WCRV_4_I am not at all scared that I will contract the Coronavirus (COVID-19),COVID Fear: Not Scared
+WCRV_4_I am not very scared that I will contract the Coronavirus (COVID-19),COVID Fear: Slightly Scared
+WCRV_4_I am very scared that I will contract the Coronavirus (COVID-19),COVID Fear: Very Scared
+WCRV_4_N/A,COVID Fear: N/A
+WCRV_4_Not applicable - I have already contracted Coronavirus (COVID-19),COVID Fear: Had COVID
+WCRex1_N/A,Gov Response: N/A
+WCRex1_Somewhat badly,Gov Response: Somewhat Bad
+WCRex1_Somewhat well,Gov Response: Somewhat Good
+WCRex1_Very badly,Gov Response: Very Bad
+WCRex1_Very well,Gov Response: Very Good
+WCRex2_A lot of confidence,Confidence in the government: High
+WCRex2_Don't know,Confidence in the government: Unknown
+WCRex2_N/A,Confidence in the government: N/A
+WCRex2_No confidence at all,Confidence in the government: None
+WCRex2_Not very much confidence,Confidence in the government: Low
+age,Age
+d1_comorbidities_No,Comorbidity: No
+d1_comorbidities_Prefer_not_to_say,Comorbidity: Prefer Not Say
+d1_comorbidities_Yes,Comorbidity: Yes
+employment_status_Full time student,Employment: Student
+employment_status_Not working,Employment: Not Working
+employment_status_Other,Employment: Other
+employment_status_Part time employment,Employment: Part Time
+employment_status_Retired,Employment: Retired
+employment_status_Unemployed,Employment: Unemployed
+endtime,Survey Date
+face_mask_behaviour_binary,Face Mask Wearing Binary
+face_mask_behaviour_scale,Face Mask Wearing Score
+gender_Male,Is a male?
+household_size,Household Size
+i10_health_Neither easy nor difficult,Isolation Ease: Neutral
+i10_health_Not sure,Isolation Ease: Unsure
+i10_health_Somewhat difficult,Isolation Ease: Somewhat Difficult
+i10_health_Somewhat easy,Isolation Ease: Somewhat Easy
+i10_health_Very difficult,Isolation Ease: Very Difficult
+i10_health_Very easy,Isolation Ease: Very Easy
+i11_health_Neither willing nor unwilling,Isolation Willingness: Neutral
+i11_health_Not sure,Isolation Willingness: Unsure
+i11_health_Somewhat unwilling,Isolation Willingness: Somewhat Unwilling
+i11_health_Somewhat willing,Isolation Willingness: Somewhat Willing
+i11_health_Very unwilling,Isolation Willingness: Very Unwilling
+i11_health_Very willing,Isolation Willingness: Very Willing
+i13_health,Handwashing Count
+i1_health,Physical contact count (with family)
+i2_health,Physical contact count (with stranger)
+"i3_health_No, I have not",COVID Test: Not done
+"i3_health_Yes, and I have not received my results from the test yet",COVID Test: Pending
+"i3_health_Yes, and I tested negative",COVID Test: Negative
+"i3_health_Yes, and I tested positive",COVID Test: Positive
+"i4_health_No, they have not",Household COVID Test: Not done
+i4_health_Not sure,Household COVID Test: Unsure
+"i4_health_Yes, and they have not received their results from the test yet",Household COVID Test: Pending
+"i4_health_Yes, and they tested negative",Household COVID Test: Negative
+"i4_health_Yes, and they tested positive",Household COVID Test: Positive
+i5_health_1_No,Dry Cough: No
+i5_health_1_Yes,Dry Cough: Yes
+i5_health_2_No,Fever: No
+i5_health_2_Yes,Fever: Yes
+i5_health_3_No,Loss of Smell: No
+i5_health_3_Yes,Loss of Smell: Yes
+i5_health_4_No,Loss of Taste: No
+i5_health_4_Yes,Loss of Taste: Yes
+i5_health_5_No,Shortness of Breath: No
+i5_health_5_Yes,Shortness of Breath: Yes
+i5_health_99_No,No Symptoms: No
+i5_health_99_Yes,No Symptoms: Yes
+i7a_health,Outings count
+i9_health_No,Symptom Isolation: No
+i9_health_Not sure,Symptom Isolation: Unsure
+i9_health_Yes,Symptom Isolation: Yes
+non_mask_protective_behaviour_binary,Non-Mask Protective Behavior Binary
+non_mask_protective_behaviour_scale,Non-Mask Protective Behavior Score
+overall_protective_behaviour_binary,Overall Protective Behavior Binary
+overall_protective_behaviour_scale,Overall Protective Behavior Score
+r1_1,COVID Severity
+r1_2,COVID Infection Risk
+r1_6,Health Motivation
+r1_7,COVID Life Impact
+state_Alagoas,State: Alagoas
+state_Alaska,State: Alaska
+state_Amapa,State: Amapa
+state_Amazonas,State: Amazonas
+state_Andhra Pradesh,State: Andhra Pradesh
+state_Arizona,State: Arizona
+state_Arkansas,State: Arkansas
+state_Arunachal Pradesh,State: Arunachal Pradesh
+state_Assam,State: Assam
+state_Bahia,State: Bahia
+state_Bihar,State: Bihar
+state_British Columbia,State: British Columbia
+state_California,State: California
+state_Ceara,State: Ceara
+state_Chandigarh,State: Chandigarh
+state_Chhattisgarh,State: Chhattisgarh
+state_Colorado,State: Colorado
+state_Connecticut,State: Connecticut
+state_Dadra and Nagar Haveli and Daman and Diu,State: Dadra and Nagar Haveli and Daman and Diu
+state_Delaware,State: Delaware
+state_Delhi,State: Delhi
+state_Distrito Federal,State: Distrito Federal
+state_Espirito Santo,State: Espirito Santo
+state_Florida,State: Florida
+state_Georgia,State: Georgia
+state_Goa,State: Goa
+state_Goias,State: Goias
+state_Gujarat,State: Gujarat
+state_Haryana,State: Haryana
+state_Hawaii,State: Hawaii
+state_Himachal Pradesh,State: Himachal Pradesh
+state_Idaho,State: Idaho
+state_Illinois,State: Illinois
+state_Indiana,State: Indiana
+state_Iowa,State: Iowa
+state_Jammu and Kashmir,State: Jammu and Kashmir
+state_Jharkhand,State: Jharkhand
+state_Kansas,State: Kansas
+state_Karnataka,State: Karnataka
+state_Kentucky,State: Kentucky
+state_Kerala,State: Kerala
+state_Lakshadweep,State: Lakshadweep
+state_Louisiana,State: Louisiana
+state_Madhya Pradesh,State: Madhya Pradesh
+state_Maharashtra,State: Maharashtra
+state_Maine,State: Maine
+state_Manipur,State: Manipur
+state_Manitoba,State: Manitoba
+state_Maranhao,State: Maranhao
+state_Maryland,State: Maryland
+state_Massachusetts,State: Massachusetts
+state_Mato Grosso,State: Mato Grosso
+state_Mato Grosso do Sul,State: Mato Grosso do Sul
+state_Meghalaya,State: Meghalaya
+state_Michigan,State: Michigan
+state_Minas Gerais,State: Minas Gerais
+state_Minnesota,State: Minnesota
+state_Mississippi,State: Mississippi
+state_Missouri,State: Missouri
+state_Mizoram,State: Mizoram
+state_Montana,State: Montana
+state_Nagaland,State: Nagaland
+state_Nebraska,State: Nebraska
+state_Nevada,State: Nevada
+state_New Brunswick,State: New Brunswick
+state_New Hampshire,State: New Hampshire
+state_New Jersey,State: New Jersey
+state_New Mexico,State: New Mexico
+state_New South Wales,State: New South Wales
+state_New York,State: New York
+state_Newfoundland and Labrador,State: Newfoundland and Labrador
+state_North Carolina,State: North Carolina
+state_North Dakota,State: North Dakota
+state_Northern Ireland,State: Northern Ireland
+state_Northern Territory,State: Northern Territory
+state_Northwest Territories,State: Northwest Territories
+state_Nova Scotia,State: Nova Scotia
+state_Nunavut,State: Nunavut
+state_Odisha,State: Odisha
+state_Ohio,State: Ohio
+state_Oklahoma,State: Oklahoma
+state_Ontario,State: Ontario
+state_Oregon,State: Oregon
+state_Para,State: Para
+state_Paraiba,State: Paraiba
+state_Parana,State: Parana
+state_Pennsylvania,State: Pennsylvania
+state_Pernambuco,State: Pernambuco
+state_Piaui,State: Piaui
+state_Prince Edward Island,State: Prince Edward Island
+state_Puducherry,State: Puducherry
+state_Punjab,State: Punjab
+state_Quebec,State: Quebec
+state_Queensland,State: Queensland
+state_Rajasthan,State: Rajasthan
+state_Rhode Island,State: Rhode Island
+state_Rio Grande do Norte,State: Rio Grande do Norte
+state_Rio Grande do Sul,State: Rio Grande do Sul
+state_Rio de Janeiro,State: Rio de Janeiro
+state_Rondonia,State: Rondonia
+state_Roraima,State: Roraima
+state_Santa Catarina,State: Santa Catarina
+state_Sao Paulo,State: Sao Paulo
+state_Saskatchewan,State: Saskatchewan
+state_Scotland,State: Scotland
+state_Sergipe,State: Sergipe
+state_Sikkim,State: Sikkim
+state_South Australia,State: South Australia
+state_South Carolina,State: South Carolina
+state_South Dakota,State: South Dakota
+state_Tamil Nadu,State: Tamil Nadu
+state_Tasmania,State: Tasmania
+state_Telangana,State: Telangana
+state_Tennessee,State: Tennessee
+state_Texas,State: Texas
+state_Tocantins,State: Tocantins
+state_Tripura,State: Tripura
+state_Utah,State: Utah
+state_Uttar Pradesh,State: Uttar Pradesh
+state_Uttarakhand,State: Uttarakhand
+state_Vermont,State: Vermont
+state_Victoria,State: Victoria
+state_Virginia,State: Virginia
+state_Wales,State: Wales
+state_Washington,State: Washington
+state_Washington DC,State: Washington DC
+state_West Bengal,State: West Bengal
+state_West Virginia,State: West Virginia
+state_Western Australia,State: Western Australia
+state_Wisconsin,State: Wisconsin
+state_Wyoming,State: Wyoming
+state_Yukon,State: Yukon
+week_number,Week
+within_mandate_period,Mandate Period

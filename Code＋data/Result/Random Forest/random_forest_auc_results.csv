@@ -1,0 +1,25 @@
+﻿model,country,mandate_period,mandate_period_label,task_type,outcome,task_name,task_label,cv_roc_auc,test_roc_auc
+Random Forest,Australia,before_mandate,Before mandate,mask,Face mask wearing,Australia_before_mandate_mask,Australia - Before mandate - Face mask wearing,0.8441855351510286,0.8437860290210115
+Random Forest,Australia,before_mandate,Before mandate,protective,Protective behaviour,Australia_before_mandate_protective,Australia - Before mandate - Protective behaviour,0.773714524759515,0.766629963557206
+Random Forest,Australia,after_mandate,After mandate,mask,Face mask wearing,Australia_after_mandate_mask,Australia - After mandate - Face mask wearing,0.9017060884443661,0.9094120503263214
+Random Forest,Australia,after_mandate,After mandate,protective,Protective behaviour,Australia_after_mandate_protective,Australia - After mandate - Protective behaviour,0.8186456112295666,0.8256238325347193
+Random Forest,Brazil,before_mandate,Before mandate,mask,Face mask wearing,Brazil_before_mandate_mask,Brazil - Before mandate - Face mask wearing,0.7848369456094473,0.7832532051282052
+Random Forest,Brazil,before_mandate,Before mandate,protective,Protective behaviour,Brazil_before_mandate_protective,Brazil - Before mandate - Protective behaviour,0.775610124180752,0.7125
+Random Forest,Brazil,after_mandate,After mandate,mask,Face mask wearing,Brazil_after_mandate_mask,Brazil - After mandate - Face mask wearing,0.7911432949088869,0.651558579272838
+Random Forest,Brazil,after_mandate,After mandate,protective,Protective behaviour,Brazil_after_mandate_protective,Brazil - After mandate - Protective behaviour,0.8135181298216695,0.8287341144484002
+Random Forest,Canada,before_mandate,Before mandate,mask,Face mask wearing,Canada_before_mandate_mask,Canada - Before mandate - Face mask wearing,0.8359031243313668,0.8420910380325719
+Random Forest,Canada,before_mandate,Before mandate,protective,Protective behaviour,Canada_before_mandate_protective,Canada - Before mandate - Protective behaviour,0.8240853104038687,0.8471132190140257
+Random Forest,Canada,after_mandate,After mandate,mask,Face mask wearing,Canada_after_mandate_mask,Canada - After mandate - Face mask wearing,0.8242352407727414,0.8419153862020174
+Random Forest,Canada,after_mandate,After mandate,protective,Protective behaviour,Canada_after_mandate_protective,Canada - After mandate - Protective behaviour,0.8350985262089381,0.8312053375268842
+Random Forest,United Kingdom,before_mandate,Before mandate,mask,Face mask wearing,United_Kingdom_before_mandate_mask,United Kingdom - Before mandate - Face mask wearing,0.6679539300816907,0.6871419957793188
+Random Forest,United Kingdom,before_mandate,Before mandate,protective,Protective behaviour,United_Kingdom_before_mandate_protective,United Kingdom - Before mandate - Protective behaviour,0.8105745047372954,0.7971014492753623
+Random Forest,United Kingdom,after_mandate,After mandate,mask,Face mask wearing,United_Kingdom_after_mandate_mask,United Kingdom - After mandate - Face mask wearing,0.7334523195191706,0.7153034409131971
+Random Forest,United Kingdom,after_mandate,After mandate,protective,Protective behaviour,United_Kingdom_after_mandate_protective,United Kingdom - After mandate - Protective behaviour,0.8321759464686933,0.8289506730962427
+Random Forest,India,before_mandate,Before mandate,mask,Face mask wearing,India_before_mandate_mask,India - Before mandate - Face mask wearing,0.7316654520189874,0.7574760765550239
+Random Forest,India,before_mandate,Before mandate,protective,Protective behaviour,India_before_mandate_protective,India - Before mandate - Protective behaviour,0.8427573728354979,0.8233529479635399
+Random Forest,India,after_mandate,After mandate,mask,Face mask wearing,India_after_mandate_mask,India - After mandate - Face mask wearing,0.8452682358846568,0.8558018573785229
+Random Forest,India,after_mandate,After mandate,protective,Protective behaviour,India_after_mandate_protective,India - After mandate - Protective behaviour,0.8419848895970892,0.8266443701226309
+Random Forest,United States,before_mandate,Before mandate,mask,Face mask wearing,United_States_before_mandate_mask,United States - Before mandate - Face mask wearing,0.8338003524131707,0.8417011732229124
+Random Forest,United States,before_mandate,Before mandate,protective,Protective behaviour,United_States_before_mandate_protective,United States - Before mandate - Protective behaviour,0.8373217603725861,0.8401606099935107
+Random Forest,United States,after_mandate,After mandate,mask,Face mask wearing,United_States_after_mandate_mask,United States - After mandate - Face mask wearing,0.8670370049679089,0.8560839721746958
+Random Forest,United States,after_mandate,After mandate,protective,Protective behaviour,United_States_after_mandate_protective,United States - After mandate - Protective behaviour,0.8472071645408565,0.8501132872639652
