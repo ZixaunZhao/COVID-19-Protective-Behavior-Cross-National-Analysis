@@ -63,7 +63,7 @@ Project root/
 
 ### Data sources
 
-All initial data used in this project are included in the GitHub repository as `Data.zip`. The original data can also be obtained from the following repositories.
+All initial data used in this project are included in the GitHub repository. The original data can also be obtained from the following repositories.
 
 Link 1: https://github.com/YouGov-Data/covid-19-tracker
 
